@@ -1,0 +1,8 @@
+from config import ACCESS_TOKEN_VENDEDOR, CLIENT_ID_VENDEDOR, PUBLIC_KEY_VENDEDOR, CLIENT_SECRET_VENDEDOR
+
+
+class Profile:
+    public_key = PUBLIC_KEY_VENDEDOR
+    access_token = ACCESS_TOKEN_VENDEDOR
+    client_id = CLIENT_ID_VENDEDOR
+    client_secret = CLIENT_SECRET_VENDEDOR

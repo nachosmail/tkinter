@@ -1,0 +1,12 @@
+{'answer': {'date_created': '2020-09-15T22:38:35.191-04:00',
+            'status': 'ACTIVE',
+            'text': 'Texto de respuesta hardcoded'},
+ 'date_created': '2020-09-12T23:06:47.630-04:00',
+ 'deleted_from_listing': False,
+ 'from': {'id': 644405827},
+ 'hold': False,
+ 'id': 11484245823,
+ 'item_id': 'MLA878429763',
+ 'seller_id': 644411786,
+ 'status': 'ANSWERED',
+ 'text': 'Hola! De que pais lo importan?'}

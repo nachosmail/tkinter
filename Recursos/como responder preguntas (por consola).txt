@@ -1,0 +1,21 @@
+$ curl -i -X POST -H "Content-Type: application/json" -d '{ "question_id":11486756084, "text":"Aca va la respuesta a tu pregunta pero respondida por consola..." }' https://api.mercadolibre.com/answers?access_token=APP_USR-3397191146646529-091417-3036ba5a833994c4304e7ed2e3997018-644411786
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   502  100   398  100   104   1331    347 --:--:-- --:--:-- --:--:--  1673HTTP/2 200
+content-type: application/json; charset=utf-8
+content-length: 398
+date: Mon, 14 Sep 2020 18:57:58 GMT
+x-content-type-options: nosniff
+x-request-id: 55819e08-fd4d-4f98-86f0-4b715c290278
+x-frame-options: DENY
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+access-control-allow-headers: Content-Type
+access-control-allow-methods: PUT, GET, POST, DELETE, OPTIONS
+access-control-max-age: 86400
+x-cache: Miss from cloudfront
+via: 1.1 e3115d01cacf7ccdca42be5f0c044ccd.cloudfront.net (CloudFront)
+x-amz-cf-pop: EZE51-C1
+x-amz-cf-id: bpy4t8fVUdAzNzOoHu2EJ3DHHEmLbrz3HvCqhyKhTXlWHCATHTc2jQ==
+
+{"id":11486756084,"seller_id":644411786,"text":"El aire viene con los globos de la foto?","status":"ANSWERED","item_id":"MLA878429763","date_created":"2020-09-14T13:10:48.639-04:00","hold":false,"deleted_from_listing":false,"answer":{"text":"Aca va la respuesta a tu pregunta pero respondida por consola...","status":"ACTIVE","date_created":"2020-09-14T14:57:58.898-04:00"},"from":{"id":114567020}}
