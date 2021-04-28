@@ -51,8 +51,8 @@ class Product:
 
 
         # Buttons
-        ttk.Button(text = 'DELETE', command = self.delete_product).grid(row = 6, column = 0, sticky = W + E)
-        ttk.Button(text = 'EDIT', command = self.edit_product).grid(row = 6, column = 1, sticky = W + E)
+        ttk.Button(text = 'DELETE', command = self.delete_product).grid(row = 6, column = 1, sticky = W + E )
+        ttk.Button(text = 'EDIT', command = self.edit_product).grid(row = 6, column = 2, sticky = W + E)
 
         # Filling the Rows
         self.get_products()
